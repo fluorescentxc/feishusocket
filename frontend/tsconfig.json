@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    // 代表将所有的cmjs的规范的默认导出 变动为es规范
+    "esModuleInterop": true , // 因为react的有些资源是通过commonjs 规范  module.exports
+    "resolveJsonModule": true
+  },
+}
